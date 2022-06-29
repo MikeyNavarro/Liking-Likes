@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likebutton {
+  background-color: rgb(242, 202, 78);
+  color: black;
+  box-shadow: 2px 2px;
+  padding: 4px;
+  width: 55px;
+}
+
+.mainContainer {
+  padding: 25px;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.userRow {
+  margin-bottom: 20px;
+}
+.SomePerson1 {
+  padding: 10px;
+  width: 350px;
+
+  margin-left: 30px;
+  border: 2px solid black;
+  margin-bottom: 15px;
+}
+
+.netWork {
+  background-color: black;
+  color: white;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.feed {
+  margin-bottom: 10px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  width: 800px;
+  margin: 15px auto;
+}
+
+img {
+  width: 70px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.leftContainer {
+  align-items: flex-start;
+  justify-content: center;
+  height: 360px;
+  width: 200px;
+}
+
+.rightContainer {
+  flex: 3;
+}
+
+.leftdiv {
+  justify-content: center;
+  align-items: flex-start;
+  border: 3px solid;
+  padding: 10px;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mb {
+  margin-bottom: 15px;
+}
